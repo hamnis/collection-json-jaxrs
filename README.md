@@ -17,5 +17,14 @@ This library supports both 2.5 and 3.x.
     <dependency>
         <groupId>net.hamnaberg.rest</groupId>
         <artifactId>json-collection</artifactId>
+        <version>3.0.0</version>
+    </dependency>
+
+
+    <dependency>
+        <groupId>net.hamnaberg.rest</groupId>
+        <artifactId>json-collection</artifactId>
         <version>2.5</version>
     </dependency>
+
+
