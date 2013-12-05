@@ -6,5 +6,6 @@ public final class Constants {
     private Constants() {
     }
 
-    public static final MediaType MEDIA_TYPE = MediaType.valueOf("application/vnd.collection+json");
+    public static final String MEDIA_TYPE_STRING = "application/vnd.collection+json";
+    public static final MediaType MEDIA_TYPE = MediaType.valueOf(MEDIA_TYPE_STRING);
 }

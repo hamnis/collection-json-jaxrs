@@ -19,7 +19,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Type;
 
 @Provider
-@Produces("application/vnd.collection+json")
+@Produces(Constants.MEDIA_TYPE_STRING)
 public final class CollectionJsonReaderAndWriter implements MessageBodyReader<Template>, MessageBodyWriter<Writable> {
     private final CollectionParser parser = new CollectionParser();
 
