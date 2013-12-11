@@ -8,7 +8,7 @@ Releases are pushed to oss.sonatype.org which again syncs with maven central.
     <dependency>
         <groupId>net.hamnaberg.json</groupId>
         <artifactId>collection-json-jaxrs</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </dependency>
 
 You will also need an implementation of collection+json.
